@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+
+<p>你好世界!</p>
+<div id="main">
+<p> DOM 是非常有用的。</p>
+<p>该实例展示了  <b>getElementsByTagName</b> 方法</p>
+</div>
+<script>
+var x=document.getElementById("main");
+var y=x.getElementsByTagName("p");
+document.write('id="main"元素中的第一个段落为：' + y[0].innerHTML);
+</script>
+
+</body>
+</html>
+
+<!-- 这个代码比较有意思，
+把一些<p>视为放在一个数组中的元素，然后用下标y[0],y[1]等来进行索引和获取。 -->
+

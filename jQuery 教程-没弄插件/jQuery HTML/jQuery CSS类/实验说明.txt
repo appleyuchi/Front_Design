@@ -1,0 +1,7 @@
+按钮映射到function,然后function调用style中的css类。
+调用方式是使用addClass
+
+removeClass的意思是说移除某个css效果
+
+
+toggleClass()就是在 有/无css效果之间切换

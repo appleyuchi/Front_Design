@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+<style>
+div {
+    background-color: coral;
+    border: 1px solid;
+    padding: 50px;
+}
+</style>
+</head>
+<body>
+
+<p>实例演示了在添加不同事件监听时，冒泡与捕获的不同。</p>
+<div id="myDiv">
+	<p id="myP">点击段落，我是冒泡。</p>
+</div><br>
+<div id="myDiv2">
+	<p id="myP2">点击段落，我是捕获。 </p>
+</div>
+<script>
+document.getElementById("myP").addEventListener("click", function() {
+    alert("你点击了 P 元素!");
+}, false);
+document.getElementById("myDiv").addEventListener("click", function() {
+    alert(" 你点击了 DIV 元素 !");
+}, false);
+document.getElementById("myP2").addEventListener("click", function() {
+    alert("你点击了 P2 元素!");
+}, true);
+document.getElementById("myDiv2").addEventListener("click", function() {
+    alert("你点击了 DIV2 元素 !");
+}, true);
+</script>
+
+</body>
+</html>
+
+
+这个代码的运行结果是:
+如果点击文字所在行，  会先后出来两个弹窗，(div+p)
+如果不点击文字所在行，只会弹出来一个.(div)
+这是因为，div代表一个模块，p代表一个段落，所以点击段落的时候，等于既触发p，又触发div

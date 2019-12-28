@@ -1,0 +1,11 @@
+带有路由的就是框架，
+不带路由的就是库,
+所以有前端框架和前端库之分.
+所以jQuery是一个库。
+
+
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+这个类似于python中的import机制
+
+
+jQuery是操作DOM的一个库，扯白了就是操作页面上某个东西的。

@@ -1,0 +1,13 @@
+教程链接是:
+https://www.runoob.com/js/js-htmldom-nodelist.html
+
+JavaScript 和 HTML DOM 参考手册
+https://www.runoob.com/jsref/jsref-tutorial.html
+
+HTML DOM Document 对象
+https://www.runoob.com/jsref/dom-obj-document.html
+
+所谓的DOM就是对document相关的函数的使用
+所谓的BOM就是对window进行操作
+
+JS库就是JQuery这种东西

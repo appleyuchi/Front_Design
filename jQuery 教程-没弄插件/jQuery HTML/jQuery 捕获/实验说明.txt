@@ -1,0 +1,2 @@
+总共属性如下:
+val,text,html,attr

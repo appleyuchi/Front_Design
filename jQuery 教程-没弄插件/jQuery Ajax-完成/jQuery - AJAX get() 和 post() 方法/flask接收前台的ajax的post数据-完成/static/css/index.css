@@ -1,0 +1,9 @@
+table {
+    background-color: #0000ff;
+
+}
+td {
+/*the following statement make the border to show, because of the different color.*/
+    background-color: #FF0000;
+
+}

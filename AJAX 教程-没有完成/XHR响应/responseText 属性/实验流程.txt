@@ -1,0 +1,12 @@
+1.
+/home/appleyuchi/work/try/ajax中放置ajax_info.txt
+
+2.
+nginx -c /etc/nginx/nginx.conf && nginx -s reload
+
+3.
+python hello.py
+
+4.
+http://127.0.0.1:10072/load_test
+点击"修改内容"

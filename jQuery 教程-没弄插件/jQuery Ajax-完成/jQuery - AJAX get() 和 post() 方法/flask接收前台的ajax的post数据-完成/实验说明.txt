@@ -1,0 +1,30 @@
+实验代码来自:
+https://www.cnblogs.com/wanghaonull/p/6340491.html
+
+＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
+1.
+nginx -c /etc/nginx/nginx.conf && nginx -s reload"
+
+
+2.
+templates/index.html中使得下面的语句每次只有一句生效，注释掉其他两句
+然后执行步骤3、４分别查看效果
+
+alert("已经存入该条数据");
+$("#storage").html("名字已添加"); 
+location.href="http://localhost:10072/register_success"
+
+3.
+python hello.py
+
+4.
+打开127.0.0.1:10072/index点击按钮查看效果
+＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
+这个代码已经经过修改了，
+按下按钮后，username和password通过ajax的post传给hello.py的sendAjax2以后,return的json被ajax中的res捕获。
+可以是下面三种效果其中一种:
+1.弹窗通知数据已经保存
+2.页面通知数据已经保存(不用跳转)
+3.跳转到新的页面，映射到hello.py中的final函数处理
+＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
+测试用的浏览器是:Firefox

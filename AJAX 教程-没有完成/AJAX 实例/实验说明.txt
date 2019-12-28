@@ -1,0 +1,47 @@
+这个实验无法通过直接双击html来实现实验效果，
+因为会涉及CORS请求的问题。
+
+具体实验步骤如下:
+1.
+/home/appleyuchi/work/try/ajax/下面放置ajax_info.txt
+ajax_info.txt里面的内容是:
+"这里是yuchi2的测试文件"
+
+工程文件目录如下:
+.
+├── ajax_info.txt(这个需要放置到/home/appleyuchi/work/try/ajax下面)
+├── hello.py
+├── templates
+│   └── index.html
+└── 实验说明.txt
+
+mkdir -p /home/appleyuchi/work/try/ajax/
+cp ajax_info.txt /home/appleyuchi/work/try/ajax/
+cp nginx.conf /etc/nginx
+
+
+2.
+启动api接口:
+python hello.py
+
+配置和启动nginx:
+nginx -c /etc/nginx/nginx.conf
+nginx -s reload
+
+3.
+关闭当前浏览器后，再次打开
+http://127.0.0.1:10072/load_test
+注意不是:
+http://127.0.0.1:10072/load_test/
+(在浏览器输入的时候没有斜杠)
+
+点击获取"外部内容"
+
+页面会通过nginx的静态服务器来获取demo_test.txt中的内容
+#-----------------------------------------------------------------
+如果上述实验运行失败,记得先把静态服务器调试通,调试通的效果是:
+http://127.0.0.1:10072/work/
+可以在浏览器中直接看到/home/appleyuchi/work下面的文件列表
+#-----------------------------------------------------------------
+所谓的XHR就是页面的亿中期请求方式
+

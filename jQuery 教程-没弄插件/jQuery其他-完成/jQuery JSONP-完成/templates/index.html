@@ -1,0 +1,47 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+<button id="btn">点击</button>
+
+
+<body>
+<div id="storage"></div>
+<script>
+function successCallback(json) {
+            console.log("**************execute callback function*************");//Object { email="中国", email2="中国222"}
+    }
+
+    $(function(){
+        $("#btn").click(function(){
+                $.ajax({
+                headers:{Accept:"application/json;charset=utf-8"},
+                url: 'http://127.0.0.1:10074/test_post/aa',
+                type:'GET',
+                dataType: 'jsonp',
+                jsonpCallback: "successCallback",//回调方法
+                success:function(res)
+                {
+                    var str = JSON.stringify(res); 
+                    console.log(res);
+                    console.log("--------------------");
+                    console.log(0);
+                    console.log("已经存入该条数据");
+                    alert("res="+str);
+                    $("#storage").html("已经获取服务器端的设备参数:"+str); 
+                     // location.href="http://localhost:10072/register_success"
+                },
+                error:function (res) {
+                    console.log(res);
+                    console.log(1)
+                }
+            })
+        })
+    })
+</script>
+</script>
+
+
+
+
+
+<h1 id="search">Hello World!</h1>
+</body>
