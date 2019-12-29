@@ -1,0 +1,7 @@
+CustomerID,CompanyName,ContactName,Address,City,PostalCode,Country
+APPLE,"Apple Computer, Inc.",Steven Jobs,"1 Infinite Loop Cupertino, CA 95014",Cupertino,95014,USA
+BAIDU ,"BAIDU, Inc",Li YanHong,"Lixiang guoji dasha,No 58, beisihuanxilu",Beijing,100080,China
+Canon,"Canon USA, Inc.",Tsuneji Uchida,"One Canon Plaza Lake Success, NY 11042",New York,11042,USA
+Google,"Google, Inc.",Larry Page,"1600 Amphitheatre Parkway Mountain View, CA 94043",Mountain View,94043,USA
+Nokia,Nokia Corporation,Olli-Pekka Kallasvuo,"P.O. Box 226, FIN-00045 Nokia Group, Finland",Helsinki,none,Finland
+SONY,Sony Corporation of America,Kazuo Hirai,"Park Ridge, NJ 07656",Park Ridge,7656,USA

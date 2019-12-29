@@ -1,0 +1,16 @@
+1.
+cd_catalog.xml拷贝到/home/appleyuchi/work/try/ajax下面
+nginx.conf拷贝到/etc/nginx/下面
+
+2.
+
+nginx -c /etc/nginx/nginx.conf
+nginx -s reload
+
+python hello.py
+
+
+3.
+浏览器打开:
+http://127.0.0.1:10072/load_test
+即可读取xml文件中的内容

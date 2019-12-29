@@ -1,0 +1,8 @@
+实验来自:
+https://www.runoob.com/ajax/ajax-tutorial.html
+
+"XHR创建对象"
+里面的例子和AJAX 实例是一样的
+
+
+这一章有两个小节都叫"AJAX实例",只取前面一个

@@ -1,0 +1,12 @@
+關於回調函數的概念可以參考:
+https://blog.csdn.net/appleyuchi/article/details/103748766
+
+
+實例1來自:
+https://www.w3school.com.cn/tiy/t.asp?f=jquery_hide_slow_right
+
+实例2来自:
+https://www.runoob.com/ajax/ajax-xmlhttprequest-onreadystatechange.html
+
+
+

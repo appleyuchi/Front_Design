@@ -1,0 +1,19 @@
+实验链接是:
+https://www.runoob.com/ajax/ajax-asp-php.html
+
+已经从asp/php修改为flask接口了.
+
+
+实验步骤:
+cp nginx.conf /etc/nginx
+nginx -c /etc/nginx/nginx.conf
+nginx -s reload
+
+python hello.py
+
+浏览器打开:
+http://127.0.0.1:10072/load_test
+然后输入名字,如果名字存在于后台中的列表,就会在页面显示该名字,否则会显示"no suggestion"
+
+
+
