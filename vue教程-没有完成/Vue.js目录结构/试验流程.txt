@@ -1,0 +1,6 @@
+$修改src/components/HelloWorld.vue
+$cnpm run dev
+然后会出来一大堆log，打开链接:
+http://localhost:8081
+
+

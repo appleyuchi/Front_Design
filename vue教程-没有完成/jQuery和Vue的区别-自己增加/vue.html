@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vue</title>
+<script src="https://cdn.bootcss.com/vue/2.2.2/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <p>大家好，我是<span>{{name}}<span>!</p>
+    <p>我是一名<span>{{jop}}</span>.</p>
+    <button v-on:click="modifyInfo">修改</button>
+</div>
+	
+<script>
+new Vue({
+  	el: '#app',
+	data:{
+    	name:"张三",
+    	jop:"医生"
+	},
+	methods:{
+    	modifyInfo:function(){
+        	this.name = "李四";
+        	this.jop = "老师";
+    	}
+	}
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vue 测试实例 - 菜鸟教程(runoob.com)</title>
+<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <input type="checkbox" id="runoob" value="Runoob" v-model="checkedNames">
+  <label for="runoob">Runoob</label>
+  <br>
+  <input type="checkbox" id="google" value="Google" v-model="checkedNames">
+  <label for="google">Google</label>
+  <br>
+  <span>选中值为: {{checkedNames}}</span>
+</div>
+
+<script>
+  
+  new Vue({
+  el: '#app',
+  data: {
+    checked : false,
+    checkedNames: []
+  }
+  })
+
+
+</script>
+</body>
+</html>

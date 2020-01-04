@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vue 测试实例 - 菜鸟教程(runoob.com)</title>
+<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+	<child message="hello!"></child>
+</div>
+
+<!---这个代码的意思是：因为这个child的标签是不存在的，
+所以下面的Vue.compoents需要对这个child进行注册，
+讲白了就是类似于C++里面的自定义数据结构,官方说法叫"注册"--->
+
+	<!---这个注册的过程中，父模块用来向子模块传递数据--->
+	<!-----这个父模块指的是和el绑定的DOM元素div #app,这个子模块就是自定义的child标签---->
+	<!---所以上方的代码，其实是父模块id=app把一个参数值传递给子模块child，
+传递的过程需要prop--->
+<script>
+// 注册
+Vue.component('child', {
+  // 声明 props
+  props: ['message'],
+  // 同样也可以在 vm 实例中像 “this.message” 这样使用
+  template: '<span>{{ message }}</span>'
+})
+// 创建根实例
+new Vue({
+  el: '#app'
+})
+</script>
+</body>
+</html>

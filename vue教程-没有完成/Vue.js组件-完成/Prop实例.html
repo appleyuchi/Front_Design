@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vue 测试实例 - 菜鸟教程(runoob.com)</title>
+<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <ol>
+    <todo-item v-for="item in sites" v-bind:todo="item"></todo-item>
+    </ol>
+</div>
+  <!---绑定方式是:--->
+<!---data中的sites中的每个元素-item-todo--->
+  <!---将todo设定为todo-item的入口参数,需要props的配合--->
+<!---for循环里面的item赋值给todo--->
+<script>
+  
+  
+//下面是数据结构定义
+Vue.component('todo-item', {
+  props: ['todo'],
+  //定义数据结构的入口参数
+  template: '<li>{{ todo.text }}</li>'
+})
+new Vue({
+  el: '#app',
+  data: {
+    sites: [
+      { text: 'Runoob' },
+      { text: 'Google' },
+      { text: 'Taobao' }
+    ]
+  }
+})
+</script>
+</body>
+</html>

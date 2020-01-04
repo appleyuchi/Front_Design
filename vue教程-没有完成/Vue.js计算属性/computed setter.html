@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vue 测试实例 - 菜鸟教程(runoob.com)</title>
+<script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <p>{{ site }}</p>
+</div>
+
+<script>
+var vm = new Vue({
+  el: '#app',
+  data: {
+	name: 'Google',
+	url: 'http://www.google.com'
+  },
+  computed: {
+    site: {
+      // getter
+      get: function () {
+        return this.name + ' ' + this.url
+      },
+      // setter
+      set: function (newValue) {
+        var names = newValue.split(' ')
+        this.name = names[0]
+        this.url = names[names.length - 1]
+      }
+    }
+  }
+})
+// 调用 setter， vm.name 和 vm.url 也会被对应更新
+vm.site = '菜鸟教程 http://www.runoob.com';//对应get
+	//但是这里的get是在获取计算属性，也就是说，这里的内容的设定，会通过get，最终传递到上方的
+	//的<p>{{ site }}</p>中
+	
+//下面对应set
+document.write('name: ' + vm.name);z
+document.write('<br>');
+document.write('url: ' + vm.url);
+</script>
+</body>
+</html>

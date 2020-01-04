@@ -1,0 +1,1 @@
+vue调用函数返回数值的时候，computed的性能比method更好

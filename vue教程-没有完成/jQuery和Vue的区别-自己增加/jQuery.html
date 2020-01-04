@@ -1,0 +1,20 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>  
+</head>  
+<body>  
+<div>
+    <p>大家好，我是<span id="name">张三<span>!</p>
+    <p>我是一名<span id="jop">医生</span>.</p>
+    <button id = "modifyBtn">修改</button>
+</div>
+<script type="text/javascript">  
+    $("#modifyBtn").click(function(){
+        $("#name").text("李四");
+        $("#jop").text("老师");
+    });
+</script>  
+</body>  
+</html>  

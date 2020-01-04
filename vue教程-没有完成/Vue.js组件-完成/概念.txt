@@ -1,0 +1,10 @@
+componet在NewVue的里面就是局部的
+在NewVue的外面就是全局的。
+
+
+这里的全局组件和局部组件也常常被称为:
+全局注册和局部注册
+
+
+比较好的一个链接：
+https://blog.csdn.net/HaiJun_Aion/article/details/84801370

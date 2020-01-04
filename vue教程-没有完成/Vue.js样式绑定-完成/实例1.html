@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vue 测试实例 - 菜鸟教程(runoob.com)</title>
+<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+<style>
+.active {
+	width: 100px;
+	height: 100px;
+	background: green;
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <div v-bind:class="{ active: isActive }"></div>
+	<!--- 这里的样式的绑定的格式是:"css代码"绑定"vue中的初始化的布尔变量"--->
+</div>
+
+<script>
+new Vue({
+  el: '#app',
+  data: {
+    isActive: true
+  }
+})
+</script>
+</body>
+</html>

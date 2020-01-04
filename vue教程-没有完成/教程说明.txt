@@ -1,0 +1,6 @@
+教程链接是:
+https://www.runoob.com/vue2/vue-tutorial.html
+
+
+注意，如果{{}}里面是变量，那么就是对应变量的数值，
+如果是函数，就是对应函数return的数值

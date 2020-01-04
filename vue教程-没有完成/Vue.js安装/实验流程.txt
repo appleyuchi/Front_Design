@@ -1,0 +1,13 @@
+#cnpm install --global vue-cli（全局，只要安装一次就够）
+#cnpm install  eslint（全局，只要安装一次就够）
+
+
+$vue init webpack my-project
+$cd my-project
+$cnpm install
+$cnpm run dev
+
+然后浏览器打开http://localhost:8080即可
+
+
+
