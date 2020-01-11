@@ -1,0 +1,42 @@
+实验流程:
+
+第1步:
+cnpm install vue-cli(好像是不需要的) 
+vue init webpack vuecliTest(Project Name=vueclitest，不能包涵大寫字母，其餘一路回車即可)
+执行的npm run build命令就相对执行的 node build/build.js
+运行npm run dev 就相当于执行了node build/dev-server.js
+
+
+
+
+第2步:
+python app.py
+
+root权限下:
+nginx -c /etc/nginx/nginx.conf
+nginx -s reload
+
+浏览器打开:
+http://127.0.0.1:10072/todo/api/v1.0/tasks
+
+
+第3步:
+App.vue的内容替换为App_new.vue
+subl vuecliTest/src/App.vue
+
+cd vuecliTest
+cnpm install --save axios
+cnpm run dev
+
+第4步:
+浏览器打开:
+http://localhost:8080
+#---------------------------------------------------------------------
+注意:
+App.vue的格式要求非常严格，上面一句(cnpm run dev)运行报错的话，绝大多数错误都是来自App.vue
+
+
+实验来自:
+https://www.cnblogs.com/sunnyyangwang/p/10389506.html
+因为该链接里面的内容不完整，所以已经补充完整了
+

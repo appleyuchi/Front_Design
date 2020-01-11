@@ -1,0 +1,24 @@
+ <!DOCTYPE html>  
+ <html lang="en">
+ <head> 
+    <meta charset="UTF-8">   
+    <title>Document</title>
+  </head>
+  <body>
+     <div id="a"> 
+         <input type="text" v-model='msg'>  
+         <p>{{msg}}</p> 
+     </div> 
+<script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+<script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+</head>
+     <script>
+        new Vue({
+             el:'#a',   
+             data:{
+                   msg:'hello'     
+                   } 
+              })
+     </script>
+     </body>
+     </html> 

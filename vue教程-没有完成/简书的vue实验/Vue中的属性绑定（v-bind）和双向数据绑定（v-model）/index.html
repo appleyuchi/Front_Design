@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div{
+            background: red;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+<script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+
+
+
+
+
+
+<body>
+    <div id="root">
+        <div title="title">hello world</div>
+        <input v-model="content"/>
+        <div>{{content}}</div>
+    </div>
+
+    <script>
+        new Vue({
+            el:"#root",
+            data: {
+                title:"this is hello world",
+                content:"this is content"
+            }
+        })
+    </script>
+</body>
+
+</html>
+
+
+
+
+

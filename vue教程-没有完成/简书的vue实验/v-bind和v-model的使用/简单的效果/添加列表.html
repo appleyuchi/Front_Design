@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <div id='itany'>
+       <input type="text" v-model='txt'>  <button v-on:click='add'>添加</button>
+       <ul>
+           <li v-for="(value,index) in arr">
+              {{value}}
+              <button v-on:click='delt(index)'>删除</button>
+           </li>
+       </ul>
+   </div>
+<script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+<script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+    <script>
+    
+       new Vue({
+           el:'#itany',
+           data:{
+               arr:['吃饭','睡觉','打游戏'],
+               txt:''
+           },
+           methods:{
+               add:function(){
+                   this.arr.push(this.txt),
+                    this.txt=''
+               },
+               delt:function(ind){
+                   this.arr.splice(ind,1)
+               }
+           }
+       })
+    </script>
+</body>
+</html>
