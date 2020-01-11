@@ -1,0 +1,13 @@
+
+实验步骤如下：
+python hello.py
+浏览器打开:
+http://127.0.0.1:10072/index
+
+nginx -c /etc/nginx/nginx.conf
+nginx -s reload
+
+
+菜鸟教程链接:
+https://www.runoob.com/vue2/vuejs-ajax.html
+

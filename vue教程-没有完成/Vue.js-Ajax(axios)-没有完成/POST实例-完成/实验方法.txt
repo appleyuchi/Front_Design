@@ -1,0 +1,31 @@
+
+###################实验步骤################################################
+启动后台:
+python hello.py
+
+
+启动nginx:
+nginx -c /etc/nginx/nginx.conf
+nginx -s reload
+
+浏览器打开:
+http://127.0.0.1:10072/index
+
+########################实验流程###########################################
+
+hello.py中的flask监听的127.0.0.1:10071->nginx中的localhost:10072
+
+template中的index.html使用axios发post给hello.py中的post_method函数，
+由post_method返回一个json.
+axios根据收到的json渲染到页面的info变量
+
+###################################################################
+这个实验需要注意:
+因为Flask/Django默认是支持jinja的，所以Vue是不支持的。
+所以页面中用来渲染的{{}}要改成[[]]
+并且需要在Vue中生命delimiter
+
+###################################################################
+代码来自以下链接的post部分的实例:
+https://www.runoob.com/vue2/vuejs-ajax.html
+

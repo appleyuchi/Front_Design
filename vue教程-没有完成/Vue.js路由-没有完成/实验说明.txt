@@ -1,5 +1,0 @@
-cnpm install vue-router
-
-
-github和这个cnpm的到底是什么关系呢?
-https://github.com/chrisvfritz/vue-2.0-simple-routing-example

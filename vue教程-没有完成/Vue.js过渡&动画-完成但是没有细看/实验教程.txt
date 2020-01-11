@@ -1,0 +1,5 @@
+这一部分实验的特点是用到了标签:
+<transition></transition>
+
+这一节的菜鸟教程:
+https://www.runoob.com/vue2/vue-transitions.html

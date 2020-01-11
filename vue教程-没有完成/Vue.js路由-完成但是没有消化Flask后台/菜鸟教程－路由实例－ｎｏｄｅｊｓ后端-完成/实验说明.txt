@@ -1,0 +1,17 @@
+来自:
+https://github.com/chrisvfritz/vue-2.0-simple-routing-example
+但是这个链接的实验采用的是nodejs的后台
+
+
+运行方法:
+cnpm install --dependencies
+cnpm run dev
+
+
+浏览器打开:
+http://localhost:8080/
+即可
+
+菜鸟教程链接:
+https://www.runoob.com/vue2/vue-routing.html
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vue 测试实例 - 菜鸟教程(runoob.com)</title>
+<script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+</head>
+<body>
+<div id = "databinding"></div>
+<script type = "text/javascript">
+var mixin = {
+	created: function () {
+		document.write('混入调用' + '<br>')
+	}
+}
+new Vue({
+	mixins: [mixin],//注释掉这句话就会导致结果只输出一句话
+		created: function () {
+		document.write('组件调用' + '<br>')
+	}
+});
+</script>
+</body>
+</html>

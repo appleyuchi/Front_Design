@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <title>Vue 测试实例 - 菜鸟教程(runoob.com)</title> 
+  <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script> 
+  <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script> 
+ </head> 
+ <body> 
+ 	{% raw %}
+  <div id="app">
+  {{info}}
+  </div> 
+  {% endraw %}
+
+  <script type="text/javascript">
+new Vue({
+  el: '#app',
+  data () {
+    return {
+      info: null
+    }
+  },
+  mounted () 
+  {
+    // axios
+    //   .get('http://127.0.0.1:10072/work/json_demo.json')
+    //   .then(response => (this.info = response))
+    //   .catch(function (error) { // 请求失败处理
+    //     console.log(error);
+    //   });
+
+
+// // 直接在 URL 上添加参数 ID=12345
+// axios.get('/user?ID=12345')
+//   .then(function (response) {
+//     console.log(response);
+//   })
+//   .catch(function (error) {
+//     console.log(error);
+//   });
+ 
+// 也可以通过 params 设置参数：
+
+
+
+
+axios.get('http://127.0.0.1:10072/user', {
+    params: {
+      ID: 12345//这个是通过post发送的参数
+    }
+  })
+  .then(function (response){
+
+	console.log("---------------------下面打印response---------------------");
+	console.log(response);
+	console.log("---------------------下面打印this---------------------");
+	console.log(this);
+	console.log("----------------------下面打印this.info--------------------");
+
+
+
+		(this.info = (response.data))
+
+console.log(this.info);
+
+	}).catch(function (error) {console.log(error);});// 请求失败处理
+  }
+  
+})
+</script>   
+  <!--  --> 
+ </body>
+</html>

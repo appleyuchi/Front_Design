@@ -1,0 +1,24 @@
+实验流程：
+
+python hello.py
+
+nginx -c /etc/nginx/nginx.conf
+nginx -s reload
+
+
+浏览器打开:
+
+圆角图片:
+http://127.0.0.1:10072/index1
+
+椭圆图片:
+http://127.0.0.1:10072/index2
+
+缩略图:
+http://127.0.0.1:10072/index3
+
+图片对齐方式:
+http://127.0.0.1:10072/index4
+
+响应式图片:
+http://127.0.0.1:10072/index5

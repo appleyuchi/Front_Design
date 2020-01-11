@@ -1,0 +1,8 @@
+试验流程:
+python hello.py
+
+cp nginx.conf /etc/nginx
+nginx -c /etc/nginx/nginx.conf
+
+浏览器打开:
+http://127.0.0.1:10072/index

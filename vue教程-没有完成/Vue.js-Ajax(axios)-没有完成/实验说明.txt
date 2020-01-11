@@ -1,1 +1,6 @@
 cnpm install axios
+snap install bower --classic
+
+菜鸟教程链接:
+https://www.runoob.com/vue2/vuejs-ajax-axios.html
+

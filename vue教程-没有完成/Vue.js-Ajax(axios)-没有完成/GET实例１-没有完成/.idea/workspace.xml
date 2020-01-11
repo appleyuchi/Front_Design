@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="337aff92-44f3-4391-8f0e-70a9267ca8f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../GET实例2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GET实例１.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/UPGRADE_GUIDE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/dist/axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/dist/axios.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/dist/axios.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/dist/axios.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/adapters/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/adapters/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/adapters/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/cancel/Cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/cancel/CancelToken.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/cancel/isCancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/core/Axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/core/InterceptorManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/core/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/core/createError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/core/dispatchRequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/core/enhanceError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/core/mergeConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/core/settle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/core/transformData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/helpers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/helpers/bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/helpers/buildURL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/helpers/combineURLs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/helpers/cookies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/helpers/deprecatedMethod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/helpers/isAbsoluteURL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/helpers/isURLSameOrigin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/helpers/normalizeHeaderName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/helpers/parseHeaders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/helpers/spread.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/node_modules/follow-redirects" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/node_modules/is-buffer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_axios@0.19.0@axios/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/node_modules/ms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_debug@3.1.0@debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_follow-redirects@1.5.10@follow-redirects/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_follow-redirects@1.5.10@follow-redirects/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_follow-redirects@1.5.10@follow-redirects/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_follow-redirects@1.5.10@follow-redirects/https.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_follow-redirects@1.5.10@follow-redirects/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_follow-redirects@1.5.10@follow-redirects/node_modules/debug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_follow-redirects@1.5.10@follow-redirects/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_is-buffer@2.0.4@is-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_is-buffer@2.0.4@is-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_is-buffer@2.0.4@is-buffer/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_is-buffer@2.0.4@is-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_is-buffer@2.0.4@is-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_ms@2.0.0@ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_ms@2.0.0@ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_ms@2.0.0@ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/_ms@2.0.0@ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/axios" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/debug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/follow-redirects" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/is-buffer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../实验说明.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../实验说明.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vue.js路由-没有完成/vue-2.0-simple-routing-example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vue.js路由-没有完成/实验说明.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Vue.js路由-没有完成/简单实例.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="886803011">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="57" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="57" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="120" />
+    <option name="width" value="1067" />
+    <option name="height" value="686" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GET实例１" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GET实例１" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GET实例１" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GET实例１" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="GET实例１" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="GET实例１" />
+      <option name="target" value="$PROJECT_DIR$/hello.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="337aff92-44f3-4391-8f0e-70a9267ca8f6" name="Default Changelist" comment="" />
+      <created>1578495807971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578495807971</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="120" width="1067" height="686" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24974722" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
