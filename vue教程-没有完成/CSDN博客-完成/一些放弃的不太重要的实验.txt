@@ -1,0 +1,5 @@
+vue的一些实验
+https://my.oschina.net/yj1993/blog/1583303（无法复现，不完整，放弃）
+https://www.zcfy.cc/article/full-stack-single-page-application-with-vue-js-and-flask-4491.html(index.html没写清楚)
+https://www.cnblogs.com/yingqml/p/7205147.html(这个最坑，已经备份了类似实验，所以放弃这个)
+

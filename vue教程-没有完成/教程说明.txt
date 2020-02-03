@@ -4,3 +4,11 @@ https://www.runoob.com/vue2/vue-tutorial.html
 
 注意，如果{{}}里面是变量，那么就是对应变量的数值，
 如果是函数，就是对应函数return的数值
+
+因为在＂CSDN博客＂这个文件夹中已经涉及到了axios，所以
+"Vue.js-Ajax(axios)"和＂Vue.js路由＂不再需要重复摸索了
+
+
+
+
+所有的文件夹都是按照菜鸟教程的目录来的，并且顺便研究和Flask的整合

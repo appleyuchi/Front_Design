@@ -1,0 +1,43 @@
+##########实验步骤-NODEJS端###############################
+vue init webpack client
+cd  client
+cnpm install --save axios
+
+
+文件替换路径:
+cd ..
+cp src/* client/src/
+cp  -r axios client/src/
+cp config/* client/config/
+
+cd client/
+npm start
+
+
+##########实验步骤-PY端###############################
+
+启动nginx:
+cp nginx.conf /etc/nginx
+nginx -c /etc/nginx/nginx.conf
+nginx -s reload
+cp data.json /home/appleyuchi/work(这个是静态文件夹所在地，由/etc/nginx/nginx.conf设置)
+
+
+python app.py
+#############实验步骤-浏览器############################
+打开127.0.0.1:8080/
+
+#########################################
+总结流程就是：
+flask开一个端口。
+vue开一个端口。
+然后互相通信。
+
+
+注意F12中虽然是8080，但是对于跨域的而言，其实走的是10072的端口，
+
+实验来自(已经完全补充完整了)：
+https://blog.csdn.net/m0_37605642/article/details/86484794
+
+关闭语法检查
+https://www.jianshu.com/p/29f3e6c78602

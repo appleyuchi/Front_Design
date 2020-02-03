@@ -1,0 +1,26 @@
+实验步骤:
+python get_msg.py
+vue init webpack client
+cd  client
+cnpm install axios --save
+cnpm install jquery@1.9.1 --save
+
+
+文件替换路径:
+cd ..
+cp App.vue client/src/App.vue
+
+cd client/
+cnpm run dev 
+
+
+
+总结流程就是：
+flask开一个端口。
+vue开一个端口。
+然后互相通信。
+
+
+
+参考:
+https://www.jianshu.com/p/ead7317d01ec

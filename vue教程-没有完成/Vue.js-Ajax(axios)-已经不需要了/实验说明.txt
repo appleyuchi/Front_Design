@@ -1,0 +1,9 @@
+cnpm install axios
+snap install bower --classic
+
+因为前后端配合的话，单纯的templates一个文件夹是不够的，需要node_modules.
+所以有些文件夹的名字里面会备注＂无法完成＂
+
+菜鸟教程链接:
+https://www.runoob.com/vue2/vuejs-ajax-axios.html
+
