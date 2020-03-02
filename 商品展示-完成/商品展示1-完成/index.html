@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8" />
+        <title>HTML引入JS/CSS的三种方式</title>
+        <!--引入外部的css文件-->
+        <link rel="stylesheet" href="style.css" />
+        
+        <!--引入外部的js文件-->
+        <script type="text/javascript" src="js/index.js" ></script>
+        
+        
+        <!--在head中添加js控制-->
+        <script type="text/javascript">
+            function onClickB1() {
+                document.getElementById("b1").innerHTML = "HEAD";
+            }
+        </script>
+        
+        
+        <!--在head中添加css修饰-->
+        <style type="text/css">
+            #j2 {
+                background-color: #808080;
+            }
+        </style>
+        
+    </head>
+
+
+<body>
+
+
+<div class="container">
+         <div class="left">
+             <div class="wrap">
+                <h3>olay</h3>
+                <div class="a-wrap">
+                    <a href="#">点击进入</a>
+                </div>
+                <p>123</p>
+                <img src="/home/appleyuchi/static/goods_path/1.png" alt="">
+            </div>
+         </div>
+         <div class="right">
+            <ul>
+                <li class="right-li">
+                    <h3>1</h3>
+                    <div class="a-wrap">
+                        <a href="">2</a>
+                    </div>  
+                    <p>3</p>
+                    <img src="/home/appleyuchi/static/goods_path/2.png" alt="">
+                </li>
+                <li class="right-li">
+                    <h3>2</h3>
+                    <div class="a-wrap">
+                        <a href="">3</a>
+                    </div>  
+                    <p>4</p>
+                    <img src="/home/appleyuchi/static/goods_path/3.png" alt="">
+                </li>
+                <li class="right-li">
+                    <h3>3</h3>
+                    <div class="a-wrap">
+                        <a href="">4</a>
+                    </div>  
+                    <p>4</p>
+                    <img src="/home/appleyuchi/static/goods_path/4.png" alt="">
+                </li>
+                <li class="right-li">
+                    <h3>4</h3>
+                    <div class="a-wrap">
+                        <a href="">5</a>
+                    </div>  
+                    <p>6</p>
+                    <img src="/home/appleyuchi/static/goods_path/5.png" alt="">
+                </li>
+                <li class="right-li">
+                    <h3>5</h3>
+                    <div class="a-wrap">
+                        <a href="">6</a>
+                    </div>  
+                    <p>7</p>
+                    <img src="/home/appleyuchi/static/goods_path/6.png" alt="">
+                </li>
+                <li class="right-li">
+                    <h3>6</h3>
+                    <div class="a-wrap">
+                        <a href="">7</a>
+                    </div>  
+                    <p>8</p>
+                    <img src="/home/appleyuchi/static/goods_path/7.png" alt="">
+                </li>
+            </ul>
+         </div>
+    </div>
+
+    </body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title>Title</title> 
+  <!-- 最新版本的 Bootstrap 核心 CSS 文件 --> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /> 
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:10072/static/css/shop.css" /> 
+
+
+  <title>易趣桌游官网</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  
+  <!-- <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  </style>
+
+
+ </head> 
+
+
+
+
+ <body> 
+
+
+  <div style="text-align: center; width: auto; border: green solid 1px;">
+<img alt="" src="http://127.0.0.1:10072/static/enjoy_game.png" style="margin: 0 auto;" />
+</div>
+
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="http://127.0.0.1:10072/">首页</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="#">文章库</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="#">桌游库</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="#">讨论区</a>
+    </li>
+	  
+	  
+	      </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="">商城</a>
+    </li>
+
+
+   </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="about">关于我们</a>
+    </li>
+	
+
+	
+  </ul>
+</nav>
+
+
+
+
+
+    <div class="carousel-item active" style="position:absolute; width: 800px; height: 600px;  left:100px;top:150px">
+
+      <a href="www.baidu.com">
+    <img src="http://127.0.0.1:10072/static/carousel/nothing.png" width="408" height="266"/>
+      </a>
+</div>
+
+<!-- 下面是轮播 -->
+
+<div id="demo" class="carousel slide" data-ride="carousel"   style="position:absolute; width: 800px; height: 600px;  left:600px;top:150px">
+ 
+  <!-- 指示符 -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+ 
+  <!-- 轮播图片 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+
+      <a href="https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-16924409899.20.4e0df1d5SoUGw4&id=560212795687">
+    <img src="http://127.0.0.1:10072/static/carousel/slide1.png" width="662" height="266" />
+</a>
+
+      <div class="carousel-caption">
+        <h3>Mistfall 现货 </h3>
+        <p>【易趣桌游】</p>
+      </div>
+
+
+
+    </div>
+    <div class="carousel-item">
+          <a href="https://item.taobao.com/item.htm?spm=a230r.1.14.96.467a28d39fS9aR&id=605447653716&ns=1&abbucket=10#detail">
+    <img src="http://127.0.0.1:10072/static/carousel/slide2.png" width="662" height="266"/>
+</a>
+
+      <div class="carousel-caption">
+        <h3>Neanderthal & Greenland ks现货 </h3>
+        <p>【易趣桌游】</p>
+      </div>
+
+
+
+    </div>
+    <div class="carousel-item">
+          <a href="https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-16924409889.46.60ff4be7wZXnTd&id=594056479902">
+    <img src="http://127.0.0.1:10072/static/carousel/slide3.png" width="662" height="266"/>
+</a>
+
+
+
+      <div class="carousel-caption">
+        <h3>【易趣桌游】</h3>
+        <p>FCM扩展 The Ketchup Mechanism and Other Ideas</p>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 左右切换按钮 -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+ 
+
+
+ 
+</div>
+
+
+
+
+
+
+
+
+
+  <ul>
+    {% for article in articles %} 
+   <div class="sh-main-div" onclick="goGame(3328)" style="position:relative;top:450px"> 
+    <img class="hot hot-active" src="http://127.0.0.1:10072/static/goods_path/hot.png" /> 
+    <img class="sh-img" src="{{article.pic_path }}" /> 
+    <p class="sh-main-title">{{article.name}}</p> 
+    <p class="sh-tips">售价:{{article.price}} RMB</p> 
+    <a href="{{article.link}}" class="sh-btn">详情</a> 
+   </div> {% endfor %} 
+  </ul> 
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+   <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <nav aria-label="Page navigation"> 
+   <ul class="pagination">
+     {% if page_obj.has_previous %} 
+    <li><a href="{% url 'front:article_list' %}?page={{ page_obj.previous_page_number }}">上一页</a></li> {% else %} 
+    <li class="disabled"><a href="javascript:void(0);">上一页</a></li> 
+    {% endif %} 
+
+    {% if left_has_more %} 
+    <li><a href="{% url 'front:article_list' %}?page=1">1</a></li> 
+    <li><a href="javascript:void(0);">...</a></li> 
+    {% endif %} {# 左边的页码 #} {% for left_page in left_pages %} 
+
+    <li><a href="{% url 'front:article_list' %}?page={{ left_page }}">{{ left_page }}</a></li> 
+    {% endfor %} {# 中间的页码 #} 
+    <li><a href="{% url 'front:article_list' %}?page={{ current_page }}">{{ current_page }}</a></li> {# 右边的页码 #} {% for right_page in right_pages %} 
+    <li><a href="{% url 'front:article_list' %}?page={{ right_page }}">{{ right_page }}</a></li> {% endfor %} {% if right_has_more %} 
+    <li><a href="javascript:void(0);">...</a></li> 
+    <li><a href="{% url 'front:article_list' %}?page={{ paginator.num_pages }}">{{ paginator.num_pages }}</a></li> {% endif %} {% if page_obj.has_next %} 
+    <li><a href="{% url 'front:article_list' %}?page={{ page_obj.next_page_number }}">下一页</a></li> {% else %} 
+    <li class="disabled"><a href="javascript:void(0);">下一页</a></li> {% endif %} 
+   </ul> 
+  </nav>  
+
+
+
+
+
+ </body>
+</html>

@@ -1,0 +1,30 @@
+目标：
+1.根据数据库来动态展示有多少页．
+2.最好不用跳转就能展示
+
+
+运行实验步骤:
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 10071
+
+fenye.front_tablename中要输入数据，
+否则会无法显示分页效果
+
+浏览器打开:
+http://127.0.0.1:10072/article/list/
+
+存在的几个问题：
+保存的链接失效
+图片出现两个
+图片大小不同
+以及位置不合适希望是几个一行进行排列
+
+
+
+
+
+实验来自:
+https://www.jianshu.com/p/332406309476
+https://www.cnblogs.com/longbigbeard/p/10188328.html(完成)
